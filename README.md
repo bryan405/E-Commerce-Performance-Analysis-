@@ -34,5 +34,91 @@ Key challenges include:
 •	Lack of clarity on marketing effectiveness and customer acquisition channels
 To remain competitive, the business requires a data-driven approach to monitor performance and identify opportunities for improvement
 
+## [Project Request](#project-Request)
+###  Project Overview
+This project delivers a data analytics solution through the design of three interactive dashboards, each tailored to a specific business function:
+•	Executive (Strategic View)
+•	Operations (Performance & Efficiency)
+•	Marketing (Customer & Channel Insights)
+Using SQL (BigQuery) for data extraction and transformation, and Power BI for visualization, the project focuses on:
+•	Analyzing revenue, profit, and growth trends
+•	Evaluating product and distribution performance
+•	Understanding customer behavior and traffic sources
+•	Connecting marketing activity to revenue outcomes
+The goal is to enable stakeholders to monitor performance, identify issues, and make informed decisions quickly.
+
+### Business Objective
+The primary objective is to provide clear, actionable insights through structured dashboards that support different teams across the organization.
+These dashboards enable stakeholders to:
+•	Monitor overall business performance
+•	Improve operational efficiency
+•	Evaluate marketing effectiveness
+•	Support strategic and tactical decision-making
+
+### Dashboard Breakdown
+Executive Dashboard
+Sales Performance Overview (Strategic Level)
+Purpose:
+Provides leadership with a high-level view of overall business performance to guide strategic decisions.
+Key Business Questions:
+•	How is revenue performing over time (monthly, yearly)?
+•	Is the business profitable?
+•	Are we experiencing growth or decline?
+•	Which categories and distribution centers drive performance?
+•	What are the main customer acquisition sources?
+Key Metrics:
+•	Total Revenue
+•	Total Profit
+•	Profit Margin (%)
+•	Total Orders
+
+ ### Operations Dashboard
+Operational Performance & Efficiency
+Purpose:
+Enables the operations team to monitor product performance and optimize distribution efficiency.
+Key Business Questions:
+•	Which products generate the highest sales volume?
+•	Which products have high return rates?
+•	Which distribution centers are underperforming?
+•	What customer segments (e.g., gender) drive product demand?
+Key Metrics:
+•	Total Units Sold
+•	Total Orders
+•	Total Customers
+•	Orders by Status (Shipped, Delivered, Returned)
+•	Distribution Center Performance
+•	Active Products
+
+###  Marketing Dashboard
+Customer & Channel Performance
+Purpose:
+Analyzes how marketing efforts translate into traffic, conversions, and revenue.
+Key Business Questions:
+•	Where are customers coming from?
+•	Which traffic sources generate the most revenue?
+•	Which channels drive the highest conversions?
+•	What customer segments are most valuable?
+Key Metrics:
+•	Total Website Sessions
+•	Traffic by Source
+•	Revenue by Traffic Source
+•	Orders by Traffic Source
+•	Customer Demographics (e.g., Gender)
+
+###  Expected Outcome
+By implementing these dashboards, the business will be able to:
+•	Track revenue, profit, and growth trends effectively
+•	Identify top-performing and underperforming products
+•	Improve distribution and operational efficiency
+•	Understand marketing performance and ROI
+•	Make faster, data-driven decisions with confidence
+
+### Tools & Technologies
+•	SQL (Google BigQuery) – Data extraction and transformation
+•	Power BI – Data visualization and dashboard development
+•	Excel – Data validation and 
+
+
+
 
 

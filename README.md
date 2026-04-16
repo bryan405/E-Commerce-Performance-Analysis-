@@ -167,8 +167,8 @@ WITH base AS (
 
 SELECT * FROM base
 LIMIT 100;
-Clean → Transform → Validate
-- ### Data Cleaning
+## Data CLEANING
+### Clean → Transform → Validate
 Goal: Remove incorrect, duplicated, or unusable data.
 - ### Check for NULL Values
 Start by checking critical fields
@@ -184,6 +184,7 @@ FROM base;
 - SELECT *
 FROM base
 WHERE sale_price <= 0;
+
 ### Check for Duplicates
 **Since order_items is the fact table, duplicates could exist.**
 - SELECT
@@ -315,12 +316,6 @@ else "Others"),
     - Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user
    - Removed unecessary Columns    = id_1 to user_id_1
    - Renamed Column = product_distribution_center_id to product_distribution_center and distribution_center_id to distribution_center
-In
-
-
-
-
-
 ## DAX CALCULATIONS(MEASURES)
 - Total Revenue
 Total Revenue = SUM('main'[total_sales]) 

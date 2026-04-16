@@ -130,10 +130,10 @@ By implementing these dashboards, the business will be able to:
  -**SQL QUERIES IN BIGQUERY**
   -STEP 1: Understand the Data Model
 -**Main joins:**
-order_items.product_id = products.id
-order_items.order_id = orders.order_id
-products.distribution_center_id = distribution_centers.id
-Core main table (fact):
+- order_items.product_id = products.id
+- order_items.order_id = orders.order_id
+- products.distribution_center_id = distribution_centers.id
+**Core main table (fact):**
  order_items (this drives revenue)
 Dimension tables:
 -	products 

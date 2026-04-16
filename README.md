@@ -271,29 +271,29 @@ Export directly to power Bi
 
 
 ## DATA TRANSFORMATION IN POWER BI.
-**FIRST TABLE TRANSFORMATION (MAIN)**
-    **main_Table** 
-   Removed Duplicates = id
-    Renamed and Remove duplicate Columns = Removed Duplicates user_id to user, order_id to order, inventory_item_id to inventory, created_at to date
-    Changed Type = Renamed Columns date to  date type
-    Renamed Columns = Changed Type created_year to year, created_month to  month, created_day to day
-    Removed Columns = shipped_at, delivered_at, returned_at
-   Renamed Columns= name to product
+**FIRST TABLE TRANSFORMATION (MAIN)** `main_Table*`
+### Steps performed
+   - Removed Duplicates = id
+    - Renamed and Remove duplicate Columns = Removed Duplicates user_id to user, order_id to order, inventory_item_id to inventory, created_at to date
+    - Changed Type = Renamed Columns date to  date type
+    - Renamed Columns = Changed Type created_year to year, created_month to  month, created_day to day
+    - Removed Columns = shipped_at, delivered_at, returned_at
+    - Renamed Columns= name to product
     Changed Type = Renamed Column total_sales to Currency.Type}, cost to Currency Type, profit to Currency.Type, margin to Percentage Type, verage_margin to Currency Type
 ### SECOND TABLE TRANSFORMAT (DIMENSION)
-    dimension_Table 
-    Changed Type= created_at to type date
-    Renamed Columns = Changed Type {created_at to date
-    Removed Duplicates = (Renamed Columns, state),
-    Duplicated Column = (Removed Duplicates, state, state - Copy)
-    Renamed Duplicated Columnstate – Copy to country_group
-    Replaced São Paulo to Brazil
-    Replaced = Rio de Janeiro to Brazil
-    Replaced = Bahia to Brazil
-    Replaced Minas Gerais to Brazil
-    Replaced Value4 = Paraná to Brazil
-    Replaced Beijing to China
-	Grouped countries into continients
+    **dimension_Table**
+    - Changed Type= created_at to type date
+    - Renamed Columns = Changed Type {created_at to date
+    - Removed Duplicates = (Renamed Columns, state),
+    - Duplicated Column = (Removed Duplicates, state, state - Copy)
+    - Renamed Duplicated Columnstate – Copy to country_group
+    - Replaced São Paulo to Brazil
+    - Replaced = Rio de Janeiro to Brazil
+    - Replaced = Bahia to Brazil
+    - Replaced = Minas Gerais to Brazil
+    - Replaced = Paraná to Brazil
+    - Replaced =Beijing to China
+	### Grouped countries into continients
 else if [country_group] = "Usa" then "North America"
 else if [country_group] = "Germany" then "Europe"
 else if [country_group] = "Spain" then "Europe"
@@ -311,9 +311,9 @@ else if [country_group] = "Nepal" then "Asia"
 else if [country_group] = "Australia" then "Oceania"
 
 else "Others"),
-    Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user
-   Removed unecessary Columns    = id_1 to user_id_1
-   Renamed Column = product_distribution_center_id to product_distribution_center and distribution_center_id to distribution_center
+    - Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user
+   - Removed unecessary Columns    = id_1 to user_id_1
+   - Renamed Column = product_distribution_center_id to product_distribution_center and distribution_center_id to distribution_center
 In
 
 
@@ -321,20 +321,20 @@ In
 
 
 ## DAX CALCULATIONS(MEASURES)
-**Total Revenue**
+- Total Revenue
 Total Revenue = SUM('main'[total_sales]) 
-**Total profit**
+- Total profit
 Total profit = SUM('main'[profit])
-**Total users**
+- Total users
 Total User1 = SUM(main[user])
-**profit margin**
+- profit margin
 Profit Margin % = 
 DIVIDE(
     [Total Profit],
     [Total Revenue],
     BLANK()
 )
-**LAST 12 MONTHS Profit Average** =
+- LAST 12 MONTHS Profit Average =
 Last 12 profit Average = 
 DIVIDE(
     CALCULATE(
@@ -347,7 +347,7 @@ DIVIDE(
         )
     ),
     12
-**Last 12 Months Revenue**
+- Last 12 Months Revenue
 Last 12 Revenue Average = 
 DIVIDE(
     CALCULATE(
@@ -361,23 +361,23 @@ DIVIDE(
     ),
     12
 )
-**Counting Order Status**
+- Counting Order Status
 processing order = 
 CALCULATE(
     COUNTROWS('main'),
     'main'[status] = "processing"
 )
-**Active Products**
+- Active Products
 Active Products = 
 DISTINCTCOUNT('dimension'[product_name])
 
-**previous Year Sales**
+- previous Year Sales
 Previous Year Sales = 
 CALCULATE(
     [Total Revenue],
     SAMEPERIODLASTYEAR('date'[Date])
 )
-**YOY%**
+- YOY%
 YoY Growth % (Formatted) = 
 VAR PrevYearSales =
     CALCULATE(

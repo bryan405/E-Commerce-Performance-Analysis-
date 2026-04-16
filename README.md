@@ -119,6 +119,9 @@ By implementing these dashboards, the business will be able to:
 -	Excel – Data validation and exploratory analysis
 
    ## [Dataset](#dataset)
+   ### Data Source
+     -  Data Source: Google Big Query E-commerce store 
+     -  Time: 2019-2026 Records: 181,184 Transactions
 
 
 

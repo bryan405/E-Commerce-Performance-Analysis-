@@ -126,10 +126,10 @@ By implementing these dashboards, the business will be able to:
    ### Preview of Bigquery Raw Data
 ![image alt](preview_bigquery_raw_data.png)
 
-## Data Cleaning and Transformation
-### SQL QUERIES IN BIGQUERY
-**STEP 1: Understand the Data Model**
-**Main joins:**
+## [Data Cleaning & Transformation](#data-cleaning--transformation)
+ -**SQL QUERIES IN BIGQUERY**
+  -STEP 1: Understand the Data Model**
+-**Main joins:**
 order_items.product_id = products.id
 order_items.order_id = orders.order_id
 products.distribution_center_id = distribution_centers.id
@@ -139,7 +139,7 @@ Dimension tables:
 -	products 
 -	distribution_centers 
 -	orders
-**STEP 2: Create a Base Table**
+-  STEP 2: Create a Base Table**
 This is how I  structure a clean analysis layer: pulling and joining the table
 WITH base AS (
   SELECT
@@ -168,9 +168,9 @@ WITH base AS (
 SELECT * FROM base
 LIMIT 100;
 Clean → Transform → Validate
-#: Data Cleaning
+- ### Data Cleaning
 Goal: Remove incorrect, duplicated, or unusable data.
-### Check for NULL Values
+- ### Check for NULL Values
 Start by checking critical fields:
 SELECT
   COUNT(*) AS total_rows,
@@ -179,7 +179,7 @@ SELECT
   COUNTIF(sale_price IS NULL) AS null_sale_price,
   COUNTIF(cost IS NULL) AS null_cost
 FROM base;
-### Remove Invalid Prices
+- ### Remove Invalid Prices
 Check for negative or zero revenue:
 SELECT *
 FROM base

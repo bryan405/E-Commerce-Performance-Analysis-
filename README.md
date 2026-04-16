@@ -462,6 +462,8 @@ Over the 2019–2026 period, the company demonstrates consistent top line growth
 ### Executive Interpretation
 The business is financially healthy. Growth is driven by strong international markets and balanced product departments. Leadership should prioritize market expansion in China and the U.S., while exploring profit optimization in lower margin categories.
 
+![image alt](Executive_Chart.png)
+
 ### Operations Dashboard: Monthly & Yearly Product Performance
 Operational activity is robust, with high throughput across most distribution centers. However, performance is uneven, signaling opportunities for efficiency improvements.
 ### Key Insights from the Dashboard

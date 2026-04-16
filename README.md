@@ -437,6 +437,8 @@ This table contains descriptive attributes related to products, users, and web a
  - continent	User continent
  - user_id	Unique identifier for the user
 
+![image alt](Model_Relationships.png)
+
 
 
 

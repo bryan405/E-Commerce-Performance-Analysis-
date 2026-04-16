@@ -393,6 +393,7 @@ IF(
     NOT(ISBLANK(PrevYearSales)),
 
 ## Cleaned Dataset
+![image alt](Cleaned_Dataset.png)
 
 
 

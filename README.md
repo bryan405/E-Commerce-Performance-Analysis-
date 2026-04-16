@@ -1,7 +1,7 @@
 # E-Commerce-Performance-Analysis
-    - Prepared by:** Emeka Victor Agbo (Senior Data Analyst) 
-    - Audience:** Leadership, Operations, Marketing
-    - Objective:** Provide a unified, insight driven view of company performance across Revenue, Operations, and Marketing
+    - Prepared by: Emeka Victor Agbo (Senior Data Analyst) 
+    - Audience: Leadership, Operations, Marketing
+    - Objective: Provide a unified, insight driven view of company performance across Revenue, Operations, and Marketing
 
 ## Table of Contents
    - [Introduction](#introduction)
@@ -114,9 +114,9 @@ By implementing these dashboards, the business will be able to:
 -	Make faster, data-driven decisions with confidence
 
 ### Tools & Technologies
--	**SQL (Google BigQuery) – **Data extraction and transformation
--	**Power BI – **Data visualization and dashboard development
--	**Excel – **Data validation and 
+-	SQL (Google BigQuery) – Data extraction and transformation
+-	Power BI – Data visualization and dashboard development
+-	Excel – Data validation and 
 
 
 

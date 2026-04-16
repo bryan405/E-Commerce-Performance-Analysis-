@@ -284,17 +284,17 @@ Export directly to power Bi
     Changed Type = Renamed Column total_sales to Currency.Type}, cost to Currency Type, profit to Currency.Type, margin to Percentage Type, verage_margin to Currency Type
 ### SECOND TABLE TRANSFORMAT (DIMENSION)
 **dimension Table**
-    - Changed Type= created_at to type date
-    - Renamed Columns = Changed Type {created_at to date
-    - Removed Duplicates = (Renamed Columns, state),
-    - Duplicated Column = (Removed Duplicates, state, state - Copy)
-    - Renamed Duplicated Columnstate – Copy to country_group
-    - Replaced São Paulo to Brazil
-    - Replaced = Rio de Janeiro to Brazil
-    - Replaced = Bahia to Brazil
-    - Replaced = Minas Gerais to Brazil
-    - Replaced = Paraná to Brazil
-    - Replaced =Beijing to China
+- Changed Type= created_at to type date
+- Renamed Columns = Changed Type {created_at to date
+- Removed Duplicates = (Renamed Columns, state),
+- Duplicated Column = (Removed Duplicates, state, state - Copy)
+- Renamed Duplicated Columnstate – Copy to country_group
+- Replaced São Paulo to Brazil
+- Replaced = Rio de Janeiro to Brazil
+- Replaced = Bahia to Brazil
+- Replaced = Minas Gerais to Brazil
+- Replaced = Paraná to Brazil
+- Replaced =Beijing to China
 ### Grouped countries into continients
 - else if [country_group] = "Usa" then "North America"
 - else if [country_group] = "Germany" then "Europe"

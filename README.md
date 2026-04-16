@@ -128,7 +128,7 @@ By implementing these dashboards, the business will be able to:
 
 ## [Data Cleaning & Transformation](#data-cleaning--transformation)
  -**SQL QUERIES IN BIGQUERY**
-  -STEP 1: Understand the Data Model**
+  -STEP 1: Understand the Data Model
 -**Main joins:**
 order_items.product_id = products.id
 order_items.order_id = orders.order_id
@@ -271,7 +271,8 @@ Export directly to power Bi
 
 
 ## DATA TRANSFORMATION IN POWER BI.
-**FIRST TABLE TRANSFORMATION (MAIN)** `main_Table*`
+**FIRST TABLE TRANSFORMATION (MAIN)**
+**Fact Table**
 ### Steps performed
    - Removed Duplicates = id
     - Renamed and Remove duplicate Columns = Removed Duplicates user_id to user, order_id to order, inventory_item_id to inventory, created_at to date
@@ -281,7 +282,7 @@ Export directly to power Bi
     - Renamed Columns= name to product
     Changed Type = Renamed Column total_sales to Currency.Type}, cost to Currency Type, profit to Currency.Type, margin to Percentage Type, verage_margin to Currency Type
 ### SECOND TABLE TRANSFORMAT (DIMENSION)
-    **dimension_Table**
+**dimension Table**
     - Changed Type= created_at to type date
     - Renamed Columns = Changed Type {created_at to date
     - Removed Duplicates = (Renamed Columns, state),
@@ -293,7 +294,7 @@ Export directly to power Bi
     - Replaced = Minas Gerais to Brazil
     - Replaced = Paraná to Brazil
     - Replaced =Beijing to China
-	### Grouped countries into continients
+### Grouped countries into continients
 else if [country_group] = "Usa" then "North America"
 else if [country_group] = "Germany" then "Europe"
 else if [country_group] = "Spain" then "Europe"
@@ -394,6 +395,48 @@ IF(
 
 ## Cleaned Dataset
 ![image alt](Cleaned_Dataset.png)
+
+### Table Structures and Relationship in Model
+The main transactional table containing all order-level data. Each row represents a single transaction.
+**Column Name	Description**
+ - id	Unique identifier for each transaction
+ - order_id	Order reference number
+ - user_id	Unique identifier for the customer
+ - product_id	Unique identifier for the product
+ - category	Product category
+ - inventory	Inventory count at time of order
+ - status	Order status (e.g., Completed, Cancelled,returned,shipped,)
+ - date	Transaction date
+ - total_sales	Total revenue generated
+ - cost	Cost of goods sold
+ - profit	Profit = Total Sales - Cost
+ - profit_margin	Profit as a percentage of sales
+ - average_margin	Average margin across transactions
+ - city	Customer city
+ - state	Customer state
+ - country	Customer country
+ - continent	Customer continent
+ - department	Business department
+
+### Dimension Table: 
+This table contains descriptive attributes related to products, users, and web activity. It is used to enrich the fact table for deeper analysis.
+
+**Column Name	Description**
+ - id	Unique identifier
+ - product_name	Name of the product
+ - brand	Product brand
+ - date	Activity or record date
+ - product_distribution_center	Distribution center handling the product
+ - city	User location (city)
+ - state	User location (state)
+ - browser	User browser (e.g., Chrome, Safari)
+ - traffic_source	Source of website traffic (e.g., Organic, Paid Ads)
+ - event_type	Type of event (e.g., Click, Purchase)
+ - num_of_items	Number of items involved in the event
+ - iscount	Discount applied (renamed from unclear "coconut")
+ - continent	User continent
+ - user_id	Unique identifier for the user
+
 
 
 

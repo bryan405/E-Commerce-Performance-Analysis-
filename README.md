@@ -122,7 +122,6 @@ By implementing these dashboards, the business will be able to:
    ### Data Source
      -  Data Source: Google Big Query E-commerce store 
      -  Time: 2019-2026 Records: 181,184 Transactions
-     
      ![](preview_of_the_raw_data_in_bigquery.png)
 
 

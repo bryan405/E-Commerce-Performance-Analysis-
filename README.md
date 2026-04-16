@@ -139,7 +139,7 @@ Dimension tables:
 -	products 
 -	distribution_centers 
 -	orders
--  STEP 2: Create a Base Table**
+  ### STEP 2: Create a Base Table
 This is how I  structure a clean analysis layer: pulling and joining the table
 WITH base AS (
   SELECT

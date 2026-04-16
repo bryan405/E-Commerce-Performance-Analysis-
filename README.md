@@ -296,21 +296,19 @@ Export directly to power Bi
     - Replaced = Paraná to Brazil
     - Replaced =Beijing to China
 ### Grouped countries into continients
-else if [country_group] = "Usa" then "North America"
-else if [country_group] = "Germany" then "Europe"
-else if [country_group] = "Spain" then "Europe"
-else if [country_group] = "Belgium" then "Europe"
-else if [country_group] = "France" then "Europe"
-else if [country_group] = "Poland" then "Europe"
-else if [country_group] = "United Kingdom" then "Europe"
-else if [country_group] = "Austria" then "Europe"
-
-else if [country_group] = "China" then "Asia"
-else if [country_group] = "Japan" then "Asia"
-else if [country_group] = "South Korea" then "Asia"
-else if [country_group] = "Nepal" then "Asia"
-
-else if [country_group] = "Australia" then "Oceania"
+- else if [country_group] = "Usa" then "North America"
+- else if [country_group] = "Germany" then "Europe"
+- else if [country_group] = "Spain" then "Europe"
+- else if [country_group] = "Belgium" then "Europe"
+- else if [country_group] = "France" then "Europe"
+- else if [country_group] = "Poland" then "Europe"
+- else if [country_group] = "United Kingdom" then "Europe"
+- else if [country_group] = "Austria" then "Europe"
+- else if [country_group] = "China" then "Asia"
+- else if [country_group] = "Japan" then "Asia"
+- else if [country_group] = "South Korea" then "Asia"
+- else if [country_group] = "Nepal" then "Asia"
+- else if [country_group] = "Australia" then "Oceania"
 
 else "Others"),
     - Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user

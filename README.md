@@ -523,6 +523,7 @@ Marketing engagement is active, with strong traffic and event activity. Email an
 
   ![image alt](Executive_DashBoard.png
   ![image alt](operations_DashBoard (2).png)
+  ![image alt](Marketing_Dashbaord.png)
 
 ## [Recommendations](#recommendations)
 

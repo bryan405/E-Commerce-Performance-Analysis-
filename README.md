@@ -171,22 +171,22 @@ Clean → Transform → Validate
 - ### Data Cleaning
 Goal: Remove incorrect, duplicated, or unusable data.
 - ### Check for NULL Values
-Start by checking critical fields:
-SELECT
+Start by checking critical fields
+-SELECT
   COUNT(*) AS total_rows,
   COUNTIF(order_id IS NULL) AS null_orders,
   COUNTIF(product_id IS NULL) AS null_products,
   COUNTIF(sale_price IS NULL) AS null_sale_price,
   COUNTIF(cost IS NULL) AS null_cost
 FROM base;
-- ### Remove Invalid Prices
-Check for negative or zero revenue:
-SELECT *
+### Remove Invalid Prices
+**Check for negative or zero revenue:**
+- SELECT *
 FROM base
 WHERE sale_price <= 0;
 ### Check for Duplicates
-Since order_items is the fact table, duplicates could exist.
-SELECT
+**Since order_items is the fact table, duplicates could exist.**
+- SELECT
   order_id,
   product_id,
   COUNT(*) AS cnt
@@ -194,17 +194,17 @@ FROM base
 GROUP BY order_id, product_id
 HAVING COUNT(*) > 1;
 ### Check Status Values
-SELECT DISTINCT status
+- SELECT DISTINCT status
 FROM base;
-Standardize values like:
+**Standardize values like:**
 -	Returned 
 -	Shipped 
 -	Delivered 
 -	Cancelled
 ### Data Transformation
 **Create Revenue & Profit Columns**
-Instead of recalculating every time:
-SELECT
+**Instead of recalculating every time:**
+- SELECT
   *,
   sale_price AS revenue,
   (sale_price - cost) AS profit,
@@ -212,37 +212,37 @@ SELECT
 FROM base;
 ### Data Validation 
 **Validate Revenue**
-Compare original main table vs cleaned table.
-SELECT SUM(sale_price)
+**Compare original main table vs cleaned table.**
+- SELECT SUM(sale_price)
 FROM `bigquery-public-data.thelook_ecommerce.order_items`;
 Then compare with your cleaned base:
-SELECT SUM(revenue)
+- SELECT SUM(revenue)
 FROM final_clean_table;
 If huge difference → something is wrong.
 
 ### Validate Order Counts
-SELECT COUNT(DISTINCT order_id)
+- SELECT COUNT(DISTINCT order_id)
 FROM final_clean_table;
 Compare with:
-SELECT COUNT(DISTINCT order_id)
+- SELECT COUNT(DISTINCT order_id)
 FROM `bigquery-public-data.thelook_ecommerce.orders`;
 They should align (except cancelled logic).
 
 ### Validate Profit Logic
-Check if any weird numbers:
-SELECT *
+**Check if any weird numbers:**
+- SELECT *
 FROM final_clean_table
 WHERE profit > 10000 OR profit < -10000;
 Look for anomalies.
 
 ### Validate Distribution Centers
-SELECT distribution_center_name, COUNT(*)
+- SELECT distribution_center_name, COUNT(*)
 FROM final_clean_table
 GROUP BY distribution_center_name;
 
 **CREATE OR REPLACE TABLE your_dataset.ecommerce_cleaned AS and exported directly into power Bi**
 
-SELECT
+-SELECT
 order_id,
 product_id,
 distribution_center_name,

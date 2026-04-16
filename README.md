@@ -519,6 +519,8 @@ Marketing engagement is active, with strong traffic and event activity. Email an
 -	Chrome dominates user behavior — website optimization should prioritize Chrome performance.
 -	Social channels underperform relative to spend; consider reallocating budget toward Email, AdWords, and high intent channels.
 
+  ## [Dashboard](#dashboard)
+
 ## [Recommendations](#recommendations)
 
 ### Strategic Recommendations 

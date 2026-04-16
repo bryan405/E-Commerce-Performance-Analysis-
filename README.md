@@ -125,6 +125,277 @@ By implementing these dashboards, the business will be able to:
      
    ### Preview of Bigquery Raw Data
 ![image alt](preview_bigquery_raw_data.png)
+
+## Data Cleaning and Transformation
+### SQL QUERIES IN BIGQUERY
+**STEP 1: Understand the Data Model**
+**Main joins:**
+order_items.product_id = products.id
+order_items.order_id = orders.order_id
+products.distribution_center_id = distribution_centers.id
+Core main table (fact):
+ order_items (this drives revenue)
+Dimension tables:
+-	products 
+-	distribution_centers 
+-	orders
+**STEP 2: Create a Base Table**
+This is how I  structure a clean analysis layer: pulling and joining the table
+WITH base AS (
+  SELECT
+    oi.order_id,
+    oi.product_id,
+    oi.sale_price,
+    oi.status,
+    oi.created_at,
+    
+    p.cost,
+    p.category,
+    p.department,
+    p.distribution_center_id,
+    
+    dc.name AS distribution_center_name
+
+  FROM `bigquery-public-data.thelook_ecommerce.order_items` oi
+  
+  LEFT JOIN `bigquery-public-data.thelook_ecommerce.products` p
+    ON oi.product_id = p.id
+    
+  LEFT JOIN `bigquery-public-data.thelook_ecommerce.distribution_centers` dc
+    ON p.distribution_center_id = dc.id
+)
+
+SELECT * FROM base
+LIMIT 100;
+Clean → Transform → Validate
+#: Data Cleaning
+Goal: Remove incorrect, duplicated, or unusable data.
+### Check for NULL Values
+Start by checking critical fields:
+SELECT
+  COUNT(*) AS total_rows,
+  COUNTIF(order_id IS NULL) AS null_orders,
+  COUNTIF(product_id IS NULL) AS null_products,
+  COUNTIF(sale_price IS NULL) AS null_sale_price,
+  COUNTIF(cost IS NULL) AS null_cost
+FROM base;
+### Remove Invalid Prices
+Check for negative or zero revenue:
+SELECT *
+FROM base
+WHERE sale_price <= 0;
+### Check for Duplicates
+Since order_items is the fact table, duplicates could exist.
+SELECT
+  order_id,
+  product_id,
+  COUNT(*) AS cnt
+FROM base
+GROUP BY order_id, product_id
+HAVING COUNT(*) > 1;
+### Check Status Values
+SELECT DISTINCT status
+FROM base;
+Standardize values like:
+-	Returned 
+-	Shipped 
+-	Delivered 
+-	Cancelled
+### Data Transformation
+**Create Revenue & Profit Columns**
+Instead of recalculating every time:
+SELECT
+  *,
+  sale_price AS revenue,
+  (sale_price - cost) AS profit,
+  SAFE_DIVIDE(sale_price - cost, sale_price) AS margin
+FROM base;
+### Data Validation 
+**Validate Revenue**
+Compare original main table vs cleaned table.
+SELECT SUM(sale_price)
+FROM `bigquery-public-data.thelook_ecommerce.order_items`;
+Then compare with your cleaned base:
+SELECT SUM(revenue)
+FROM final_clean_table;
+If huge difference → something is wrong.
+
+### Validate Order Counts
+SELECT COUNT(DISTINCT order_id)
+FROM final_clean_table;
+Compare with:
+SELECT COUNT(DISTINCT order_id)
+FROM `bigquery-public-data.thelook_ecommerce.orders`;
+They should align (except cancelled logic).
+
+### Validate Profit Logic
+Check if any weird numbers:
+SELECT *
+FROM final_clean_table
+WHERE profit > 10000 OR profit < -10000;
+Look for anomalies.
+
+### Validate Distribution Centers
+SELECT distribution_center_name, COUNT(*)
+FROM final_clean_table
+GROUP BY distribution_center_name;
+
+**CREATE OR REPLACE TABLE your_dataset.ecommerce_cleaned AS and exported directly into power Bi**
+
+SELECT
+order_id,
+product_id,
+distribution_center_name,
+category,
+department,
+State,
+City,
+Product,
+Category,
+sale_price AS revenue,
+cost,
+(sale_price - cost) AS profit,
+SAFE_DIVIDE(sale_price - cost, sale_price) AS margin,
+DATE(created_at) AS order_date,
+EXTRACT(YEAR FROM created_at) AS year,
+FORMAT_DATE('%Y-%m', DATE(created_at)) AS year_month,
+status,
+CASE WHEN status = 'Returned' THEN 1 ELSE 0 END AS is_returned
+
+FROM base
+WHERE sale_price > 0
+AND order_id IS NOT NULL;
+
+Create temporary table in bigquery and rename it (MAIN).
+Export directly to power Bi
+
+
+## DATA TRANSFORMATION IN POWER BI.
+**FIRST TABLE TRANSFORMATION (MAIN)**
+    **main_Table** 
+   Removed Duplicates = id
+    Renamed and Remove duplicate Columns = Removed Duplicates user_id to user, order_id to order, inventory_item_id to inventory, created_at to date
+    Changed Type = Renamed Columns date to  date type
+    Renamed Columns = Changed Type created_year to year, created_month to  month, created_day to day
+    Removed Columns = shipped_at, delivered_at, returned_at
+   Renamed Columns= name to product
+    Changed Type = Renamed Column total_sales to Currency.Type}, cost to Currency Type, profit to Currency.Type, margin to Percentage Type, verage_margin to Currency Type
+### SECOND TABLE TRANSFORMAT (DIMENSION)
+    dimension_Table 
+    Changed Type= created_at to type date
+    Renamed Columns = Changed Type {created_at to date
+    Removed Duplicates = (Renamed Columns, state),
+    Duplicated Column = (Removed Duplicates, state, state - Copy)
+    Renamed Duplicated Columnstate – Copy to country_group
+    Replaced São Paulo to Brazil
+    Replaced = Rio de Janeiro to Brazil
+    Replaced = Bahia to Brazil
+    Replaced Minas Gerais to Brazil
+    Replaced Value4 = Paraná to Brazil
+    Replaced Beijing to China
+	Grouped countries into continients
+else if [country_group] = "Usa" then "North America"
+else if [country_group] = "Germany" then "Europe"
+else if [country_group] = "Spain" then "Europe"
+else if [country_group] = "Belgium" then "Europe"
+else if [country_group] = "France" then "Europe"
+else if [country_group] = "Poland" then "Europe"
+else if [country_group] = "United Kingdom" then "Europe"
+else if [country_group] = "Austria" then "Europe"
+
+else if [country_group] = "China" then "Asia"
+else if [country_group] = "Japan" then "Asia"
+else if [country_group] = "South Korea" then "Asia"
+else if [country_group] = "Nepal" then "Asia"
+
+else if [country_group] = "Australia" then "Oceania"
+
+else "Others"),
+    Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user
+   Removed unecessary Columns    = id_1 to user_id_1
+   Renamed Column = product_distribution_center_id to product_distribution_center and distribution_center_id to distribution_center
+In
+
+
+
+
+
+## DAX CALCULATIONS(MEASURES)
+**Total Revenue**
+Total Revenue = SUM('main'[total_sales]) 
+**Total profit**
+Total profit = SUM('main'[profit])
+**Total users**
+Total User1 = SUM(main[user])
+**profit margin**
+Profit Margin % = 
+DIVIDE(
+    [Total Profit],
+    [Total Revenue],
+    BLANK()
+)
+**LAST 12 MONTHS Profit Average** =
+Last 12 profit Average = 
+DIVIDE(
+    CALCULATE(
+        [Total profit],
+        DATESINPERIOD(
+            'date'[Date],
+            MAX('date'[Date]),
+            -12,
+            MONTH
+        )
+    ),
+    12
+**Last 12 Months Revenue**
+Last 12 Revenue Average = 
+DIVIDE(
+    CALCULATE(
+        [Total Revenue],
+        DATESINPERIOD(
+            'date'[Date],
+            MAX('date'[Date]),
+            -12,
+            MONTH
+        )
+    ),
+    12
+)
+**Counting Order Status**
+processing order = 
+CALCULATE(
+    COUNTROWS('main'),
+    'main'[status] = "processing"
+)
+**Active Products**
+Active Products = 
+DISTINCTCOUNT('dimension'[product_name])
+
+**previous Year Sales**
+Previous Year Sales = 
+CALCULATE(
+    [Total Revenue],
+    SAMEPERIODLASTYEAR('date'[Date])
+)
+**YOY%**
+YoY Growth % (Formatted) = 
+VAR PrevYearSales =
+    CALCULATE(
+        [Total revenue],
+        SAMEPERIODLASTYEAR('date'[Date])
+    )
+
+VAR Growth =
+    DIVIDE([Total revenue] - PrevYearSales, PrevYearSales)
+
+RETURN
+IF(
+    NOT(ISBLANK(PrevYearSales)),
+
+
+
+
+
      
 
 

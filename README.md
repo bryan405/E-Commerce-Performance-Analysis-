@@ -116,7 +116,9 @@ By implementing these dashboards, the business will be able to:
 ### Tools & Technologies
 -	SQL (Google BigQuery) – Data extraction and transformation
 -	Power BI – Data visualization and dashboard development
--	Excel – Data validation and 
+-	Excel – Data validation and exploratory analysis
+
+   ## [Dataset](#dataset)
 
 
 

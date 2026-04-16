@@ -275,12 +275,12 @@ Export directly to power Bi
 **FIRST TABLE TRANSFORMATION (MAIN)**
 **Fact Table**
 ### Steps performed
-   - Removed Duplicates = id
-    - Renamed and Remove duplicate Columns = Removed Duplicates user_id to user, order_id to order, inventory_item_id to inventory, created_at to date
-    - Changed Type = Renamed Columns date to  date type
-    - Renamed Columns = Changed Type created_year to year, created_month to  month, created_day to day
-    - Removed Columns = shipped_at, delivered_at, returned_at
-    - Renamed Columns= name to product
+- Removed Duplicates = id
+- Renamed and Remove duplicate Columns = Removed Duplicates user_id to user, order_id to order, inventory_item_id to inventory, created_at to date
+- Changed Type = Renamed Columns date to  date type
+- Renamed Columns = Changed Type created_year to year, created_month to  month, created_day to day
+- Removed Columns = shipped_at, delivered_at, returned_at
+- Renamed Columns= name to product
     Changed Type = Renamed Column total_sales to Currency.Type}, cost to Currency Type, profit to Currency.Type, margin to Percentage Type, verage_margin to Currency Type
 ### SECOND TABLE TRANSFORMAT (DIMENSION)
 **dimension Table**

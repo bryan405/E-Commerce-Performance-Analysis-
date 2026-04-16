@@ -398,7 +398,7 @@ IF(
 
 ### Table Structures and Relationship in Model
 The main transactional table containing all order-level data. Each row represents a single transaction.
-**Column Name	Description**
+-  **Column Name	Description**
  - id	Unique identifier for each transaction
  - order_id	Order reference number
  - user_id	Unique identifier for the customer

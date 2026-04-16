@@ -311,10 +311,13 @@ Export directly to power Bi
 - else if [country_group] = "Australia" then "Oceania"
 
 else "Others"),
-    - Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user
-   - Removed unecessary Columns    = id_1 to user_id_1
-   - Renamed Column = product_distribution_center_id to product_distribution_center and distribution_center_id to distribution_center
+
+- Renamed Column= Added Custom column to Continient ,country_group to Country, order_id  to  order,  user_id to user
+- Removed unecessary Columns    = id_1 to user_id_1
+- Renamed Column = product_distribution_center_id to product_distribution_center and distribution_center_id to distribution_center
+- 
 ## DAX CALCULATIONS(MEASURES)
+
 - Total Revenue
 Total Revenue = SUM('main'[total_sales]) 
 - Total profit

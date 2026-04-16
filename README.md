@@ -521,6 +521,8 @@ Marketing engagement is active, with strong traffic and event activity. Email an
 
   ## [Dashboard](#dashboard)
 
+  ![image alt](Executive_DashBoard.png)
+
 ## [Recommendations](#recommendations)
 
 ### Strategic Recommendations 

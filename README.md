@@ -504,6 +504,7 @@ Both segments are strong, but men slightly outperform.
 Recommendation:
 Deepen segmentation (age, region, product category).
 Identify micro‑segments with highest conversion potential.
+![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
 
 ## Operations Dashboard — Performance & Efficiency Findings
 2.1 Distribution Center Throughput

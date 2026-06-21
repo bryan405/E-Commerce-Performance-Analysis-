@@ -9,7 +9,7 @@
    - [Project Request](#project-Request)
    - [Dataset](#dataset)
    - [Data Cleaning & Transformation](#data-cleaning--transformation)
-   - [Reports](#reports)
+   - [Key Insights & Findings](#Key Insights & Findings)
    - [Dashboard](#dashboard)
    - [Recommendations](#recommendations)
 

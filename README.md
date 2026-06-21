@@ -506,7 +506,7 @@ Deepen segmentation (age, region, product category).
 Identify micro‑segments with highest conversion potential.
 ![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
 
-## Operations Dashboard — Performance & Efficiency Findings
+## Performance & Efficiency Findings
 2.1 Distribution Center Throughput
 Finding:  
 Centers 6 and 9 lead with 24 items each; Center 10 is lowest at 8 items.
@@ -555,6 +555,7 @@ Dashboard Page: Operations → Revenue by Gender
 Recommendation:
 Tailor inventory planning by gender.
 identify gender‑specific traffic sources.
+![operation](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/operations_DashBoard.png)
 
 ## Customer & Channel Insights
 ### Traffic Source Revenue
@@ -620,98 +621,7 @@ Distribution center inefficiencies may be contributing to MoM revenue decline.
 Gender traffic patterns should inform inventory planning.
 Recommendation:  
 Align SKU assortment with gender‑specific demand signals.
-
- ### Executive Summary 
-**Core Insight:** The business is growing steadily, with strong revenue concentration in key markets, balanced departmental performance, and clear opportunities to optimize operations and marketing efficiency.
-**Insight across all dashboards:**
--	Revenue reached $11M, with $6M profit and a 52% margin — stable but with room for acceleration.
--	China and the USA are the primary revenue engines, contributing $3.8M and $2.2M respectively.
--	Operations remain strong with 9 distribution centers, though performance varies significantly.
--	Marketing traffic is healthy, but Email and AdWords dominate conversions, while social channels underperform.
- **Executive Dashboard: Company Performance Overview**
-Over the 2019–2026 period, the company demonstrates consistent top line growth, supported by a solid profit margin. Revenue trends show resilience, with the last 12 months stabilizing around $4M, while profit remains near $2M.
-### Key Insights from the Dashboard**
--	Revenue: $11M total
--	Profit: $6M
--	Margin: 52%
--	Order Volume: 125K total orders
-### Growth Trend: Revenue increased steadily from 2020 to 2026
--	Top Markets:
--	China: $3.8M
--	USA: $2.2M
--	Brazil: $1.4M
-**Department Performance:**
--	Men: $5.8M
--	Women: $5.0M
-### Executive Interpretation
-The business is financially healthy. Growth is driven by strong international markets and balanced product departments. Leadership should prioritize market expansion in China and the U.S., while exploring profit optimization in lower margin categories.
-
-![image alt](Executive_Chart.png)
-
-### Operations Dashboard: Monthly & Yearly Product Performance
-Operational activity is robust, with high throughput across most distribution centers. However, performance is uneven, signaling opportunities for efficiency improvements.
-### Key Insights from the Dashboard
--	Total Users: 9B (platform wide activity)-
--	Total Orders: 125K
--	Active Products: 221
--	Distribution Centers: 9
--	Top Performing Centers:
--	Center 6: 24 items
--	Center 9: 24 items
--	Lowest Performing Center:
--	Center 10: 8 items
--	Monthly Order Flow:
--	Peak months: March (4,839 complete, 5,724 shipped)
--	Total shipped: 54,158
--	Total complete: 45,268
--	Gender Revenue Split:
--	Male: $4.8M
--	Female: $3.8M
--	Top Moving Products:
--	Women’s Belted Skater Mini Skirt (2 units)
--	Women’s American Eagle (1)
--	Women’s Short Satin (1)
-### Operational Interpretation
--	Distribution centers show imbalanced throughput, suggesting a need for load balancing and capacity planning.
--	Women’s apparel drives product movement — an opportunity to expand inventory depth in this category.
--	Reverse logistics (returns/cancellations) remain high, indicating potential issues in product quality, sizing accuracy, or delivery experience.
-
-### Marketing Dashboard: Customer & Campaign Insights
-Marketing engagement is active, with strong traffic and event activity. Email and AdWords remain the highest performing channels, while social platforms show lower conversion potential.
-### Key Insights from the Dashboard
--	Total Events: 222
--	Total Traffic: 222
--	Traffic by Gender:
--	Female: 51%
--	Male: 49%
-  **Top Traffic Sources:**
--	Email: 104
--	AdWords: 64
--	Facebook: 26
--	YouTube: 17
--	Organic: 11
-**Browser Usage:**
--	Chrome: 2.2M users
--	Firefox: 1.0M
--	Safari: 0.8M
-**Top Countries by Browser Activity:**
--	USA: 52
--	China: 29
--	Japan: 29
-  ### Marketing Interpretation
--	Email is the highest channel, suggesting continued investment in CRM and lifecycle marketing.
--	Chrome dominates user behavior — website optimization should prioritize Chrome performance.
--	Social channels underperform relative to spend; consider reallocating budget toward Email, AdWords, and high intent channels.
-
-  ## [Dashboard](#dashboard)
-![image alt](Executive_DashBoard.png)
-
-
-![image alt](operations_DashBoard.png)
-
-
-
-![image alt](Marketing_Dashbaord.png)
+![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
 
 
 ## [Recommendations](#recommendations)

@@ -16,15 +16,15 @@
      ## [Executive Summary](#Executive-Summary)
 
       ### Executive Summary 
-**Core Insight:** The business is growing steadily, with strong revenue concentration in key markets, balanced departmental performance, and clear opportunities to optimize operations and marketing efficiency.
-**Insight across all dashboards:**
+ Business is growing steadily, with strong revenue concentration in key markets, balanced departmental performance, and clear opportunities to optimize operations and marketing efficiency.
+### Insight across all dashboards:
 -	Revenue reached $11M, with $6M profit and a 52% margin — stable but with room for acceleration.
 -	China and the USA are the primary revenue engines, contributing $3.8M and $2.2M respectively.
 -	Operations remain strong with 9 distribution centers, though performance varies significantly.
 -	Marketing traffic is healthy, but Email and AdWords dominate conversions, while social channels underperform.
- **Executive Dashboard: Company Performance Overview**
+  ### Executive Dashboard: Company Performance Overview
 Over the 2019–2026 period, the company demonstrates consistent top line growth, supported by a solid profit margin. Revenue trends show resilience, with the last 12 months stabilizing around $4M, while profit remains near $2M.
-### Key Insights from the Dashboard**
+### Key Insights from the Analysis
 -	Revenue: $11M total
 -	Profit: $6M
 -	Margin: 52%
@@ -34,10 +34,10 @@ Over the 2019–2026 period, the company demonstrates consistent top line growth
 -	China: $3.8M
 -	USA: $2.2M
 -	Brazil: $1.4M
-**Department Performance:**
+  ### Department Performance:
 -	Men: $5.8M
 -	Women: $5.0M
-### Executive Interpretation
+### Interpretation
 The business is financially healthy. Growth is driven by strong international markets and balanced product departments. Leadership should prioritize market expansion in China and the U.S., while exploring profit optimization in lower margin categories.
 
 ![image alt](Executive_Chart.png)

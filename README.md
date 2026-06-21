@@ -21,7 +21,7 @@
 -	China and the USA are the primary revenue engines, contributing $3.8M and $2.2M respectively.
 -	Operations remain strong with 9 distribution centers, though performance varies significantly.
 -	Marketing traffic is healthy, but Email and AdWords dominate conversions, while social channels underperform.
-  ### Executive Dashboard: Company Performance Overview
+  ### Company Performance Overview
 Over the 2019–2026 period, the company demonstrates consistent top line growth, supported by a solid profit margin. Revenue trends show resilience, with the last 12 months stabilizing around $4M, while profit remains near $2M.
 ### Key Insights from the Analysis
 -	Revenue: $11M total

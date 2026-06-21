@@ -40,7 +40,7 @@ Over the 2019–2026 period, the company demonstrates consistent top line growth
 ### Interpretation
 The business is financially healthy. Growth is driven by strong international markets and balanced product departments. Leadership should prioritize market expansion in China and the U.S., while exploring profit optimization in lower margin categories.
 
-![image alt](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Executive_Chart.png)
+![image alt](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Executive_DashBoard.png)
 
 
 

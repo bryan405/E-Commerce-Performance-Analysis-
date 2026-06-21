@@ -4,7 +4,7 @@
 ### Objective: **Provide a unified, insight driven view of company performance across Revenue, Operations, and Marketing**
 
 ## Table of Contents
-   -[Executive Summary](#Executive-Summary)
+   - [Executive Summary](#Executive-Summary)
    - [Introduction](#introduction)
    - [Project Request](#project-Request)
    - [Dataset](#dataset)
@@ -13,7 +13,7 @@
    - [Dashboard](#dashboard)
    - [Recommendations](#recommendations)
 
-     ## -[Executive Summary](#Executive-Summary)
+     ## [Executive Summary](#Executive-Summary)
 
       ### Executive Summary 
 **Core Insight:** The business is growing steadily, with strong revenue concentration in key markets, balanced departmental performance, and clear opportunities to optimize operations and marketing efficiency.

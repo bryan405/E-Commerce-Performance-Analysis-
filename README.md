@@ -14,8 +14,7 @@
    - [Recommendations](#recommendations)
 
      ## [Executive Summary](#Executive-Summary)
-
-      ### Executive Summary 
+ 
  Business is growing steadily, with strong revenue concentration in key markets, balanced departmental performance, and clear opportunities to optimize operations and marketing efficiency.
 ### Insight across all dashboards:
 -	Revenue reached $11M, with $6M profit and a 52% margin — stable but with room for acceleration.

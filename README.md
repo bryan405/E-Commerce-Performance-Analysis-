@@ -336,7 +336,7 @@ Gender‑based traffic patterns should guide inventory planning.
 **Recommendation:**  
 Match SKU assortment with gender‑specific demand signals.
 
-
+# [Dashboard](#dashboard)
 ![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
 
 

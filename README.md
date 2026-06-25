@@ -306,6 +306,8 @@ Chrome dominates usage. Safari users may be experiencing friction, especially on
 **Recommendation:**  
 Conduct cross‑browser testing and improve Safari performance to capture missed conversions.
 
+![browser](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/browser%20by%20country.png)
+
 ### Geographic Engagement
 - **USA** leads with **52** browser interactions, followed by China and Japan.
 

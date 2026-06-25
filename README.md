@@ -41,7 +41,8 @@ To remain competitive, the business requires a data-driven approach to monitor p
 This project delivers a data analytics solution through the design of three interactive dashboards, each tailored to a specific business function:
 -	Executive (Strategic View)
 -	Operations (Performance & Efficiency)
--	Marketing (Customer & Channel Insights)
+-	Marketing (Customer & Channel Insights
+
   
 Using SQL (BigQuery) for data extraction and transformation, and Power BI for visualization, the project focuses on:
 

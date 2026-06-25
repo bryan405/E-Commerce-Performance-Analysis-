@@ -279,6 +279,8 @@ Email and AdWords deliver the highest revenue and strongest ROI. Organic traffic
 
 - Invest in SEO to reduce reliance on paid channels.
 
+![TRaffic](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Revenue%20by%20traffic%20source.png)
+
 ### Engagement & Events
 All major engagement metrics show **222** interactions.
 

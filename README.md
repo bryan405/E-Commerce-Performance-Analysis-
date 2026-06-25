@@ -262,50 +262,50 @@ Email and AdWords deliver the highest revenue and strongest ROI. Organic traffic
 - Invest in SEO to reduce reliance on paid channels.
 
 ### Engagement & Events
-All major engagement metrics show 222 interactions.
+All major engagement metrics show **222** interactions.
 
-Insight:  
+**Insight:**  
 Engagement is stable but not growing. This indicates a plateau in customer activity.
 
-Recommendation:
+**Recommendation:**
 
-Run A/B tests on landing pages.
+- Run A/B tests on landing pages.
 
-Add a conversion‑funnel view to identify where users drop off.
+- Add a conversion‑funnel view to identify where users drop off.
 
-Browser Behavior
-Chrome: 2.2M users
+### Browser Behavior
+- **Chrome:** 2.2M users
 
-Firefox: 1.0M
+- **Firefox:** 1.0M
 
-Safari: 0.8M
+- **Safari:** 0.8M
 
-Insight:  
+**Insight:**  
 Chrome dominates usage. Safari users may be experiencing friction, especially on mobile.
 
-Recommendation:  
+**Recommendation:**  
 Conduct cross‑browser testing and improve Safari performance to capture missed conversions.
 
-Geographic Engagement
-USA leads with 52 browser interactions, followed by China and Japan.
+### Geographic Engagement
+- **USA leads with **52** browser interactions, followed by China and Japan.
 
-Insight:  
+**Insight:**  
 Engagement patterns match revenue patterns — strong in USA and China.
 
-Recommendation:  
+**Recommendation:**  
 Localize campaigns for Japan and Brazil to unlock additional growth.
 
-4. Cross‑Dashboard Insights (Connecting the Story)
-Marketing ↔ Executive
+## Cross‑Dashboard Insights (Connecting the Story)
+Marketing **«»** Executive
 High‑revenue traffic sources (Email, AdWords) align with stable revenue trends.
 
 Recommendation:  
 Scale campaigns for top‑performing products identified in the Executive dashboard.
 
-Operations ↔ Executive
+Operations **«»** Executive
 Distribution center inefficiencies may be contributing to the month‑over‑month revenue decline.
 
-Marketing ↔ Operations
+Marketing **»«** Operations
 Gender‑based traffic patterns should guide inventory planning.
 
 Recommendation:  

@@ -241,17 +241,18 @@ Align stock levels and assortment with gender‑specific demand patterns.
 
 ## Marketing Performance Findings
 **Traffic Source Revenue**
-**Email:** $4.5M
 
-**AdWords** $4.2M
+- **Email:** $4.5M
 
-**Facebook:** $1.2M
+- **AdWords** $4.2M
 
-**YouTube:** $0.6M
+- **Facebook:** $1.2M
 
-**Organic:** $0.3M
+- **YouTube:** $0.6M
 
-**Insight:**  
+- **Organic:** $0.3M
+
+- **Insight:**  
 Email and AdWords deliver the highest revenue and strongest ROI. Organic traffic is weak, showing limited SEO impact.
 
 **Recommendation:**
@@ -291,7 +292,7 @@ Conduct cross‑browser testing and improve Safari performance to capture missed
 - **USA** leads with **52** browser interactions, followed by China and Japan.
 
 **Insight:**  
-Engagement patterns match revenue patterns — strong in USA and China.
+Engagement patterns match revenue patterns - strong in USA and China.
 
 **Recommendation:**  
 Localize campaigns for Japan and Brazil to unlock additional growth.
@@ -309,8 +310,10 @@ Distribution center inefficiencies may be contributing to the month‑over‑mon
 Marketing **»«** Operations
 Gender‑based traffic patterns should guide inventory planning.
 
-Recommendation:  
+**Recommendation:**  
 Match SKU assortment with gender‑specific demand signals.
+
+
 ![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
 
 

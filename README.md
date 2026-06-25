@@ -253,6 +253,8 @@ Men generate more revenue, but women drive more SKU diversity. This should guide
 **Recommendation:**  
 Align stock levels and assortment with gender‑specific demand patterns.
 
+![REVENUE](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Revnue%20by%20Gender.png)
+
 ## Marketing Performance Findings
 **Traffic Source Revenue**
 

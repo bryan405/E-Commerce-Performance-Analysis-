@@ -212,6 +212,8 @@ There is a clear imbalance in workload. Underperformance at Center 10 may be cau
 **Recommendation:**  
 Investigate Center 10’s bottlenecks (staffing, routing, inventory). Rebalance inventory and workload across centers.
 
+![DISTRIBUTION](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Distribution%20center.png)
+
 ### Product Movement & SKU Efficiency
 Women’s apparel shows the highest movement:
 

@@ -129,7 +129,7 @@ By implementing these dashboards, the business will be able to:
 - Time: 2019-2026 Records: 226,984 Transactions
      
    ### Preview of Bigquery Raw Data
-![image alt](preview_bigquery_raw_data.png)
+![image alt](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Cleaned_Data.png)
 ### Dataset Structure
 
 #### ![Preview of Column Structure Click Here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Table%20Structures%20and%20Relationship%20in%20Model.pdf)

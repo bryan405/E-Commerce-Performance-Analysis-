@@ -128,9 +128,10 @@ By implementing these dashboards, the business will be able to:
    ### Preview of Bigquery Raw Data
 ![image alt](preview_bigquery_raw_data.png)
 ### Dataset Structure
-**ERD Diagram**
 
 #### ![Preview of Columns Structure click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Table%20Structures%20and%20Relationship%20in%20Model.pdf)
+
+**ERD Diagram**
 
 ![ERD](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/ERD%20Diagram.png)
 

@@ -174,6 +174,7 @@ More than **55% of revenue comes from China and the USA**, creating dependency o
 
 **Recommendation:**  
 Develop a diversification plan targeting mid‑tier markets like Spain and South Korea to reduce concentration risk.
+![MARKET](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Revenue%20by%20country.png)
 
 ### Product Profitability
 Top profit‑generating brands include **The North Face, Canada Goose, NIKE WOM, and Nobis Men’s**.

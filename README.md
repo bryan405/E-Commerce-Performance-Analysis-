@@ -132,6 +132,7 @@ By implementing these dashboards, the business will be able to:
 ![ERD](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/ERD%20Diagram.png)
 
 ## [Data Cleaning & Transformation](#data-cleaning--transformation)
+#### ![Biguery Data Cleaning Documentation Click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Biguery%20data%20cleaning%20documentation..pdf)
 
 # [Executive Summary](#Executive-Summary)
 

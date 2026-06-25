@@ -133,6 +133,7 @@ By implementing these dashboards, the business will be able to:
 
 ## [Data Cleaning & Transformation](#data-cleaning--transformation)
 #### ![Biguery Data Cleaning Documentation Click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Biguery%20data%20cleaning%20documentation..pdf)
+#### ![Power Bi Transformation Click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/DATA%20TRANSFORMATION%20IN%20POWER%20BI.pdf)
 
 # [Executive Summary](#Executive-Summary)
 

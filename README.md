@@ -158,7 +158,7 @@ Build market diversification strategy targeting mid‑tier markets (Spain, Korea
 Top profit drivers: The **North Face, Canada Goose, NIKE WOM, Nobis Men’s**.
 Insight:  
 Profit is heavily driven by premium outerwear, indicating strong brand affinity and pricing power.
-Dashboard Page: Executive → Profit by Product  
+ 
 **Recommendation:**
 Expand premium product lines and bundle offers.
 ### Department Performance 

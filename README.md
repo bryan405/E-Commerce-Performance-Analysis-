@@ -317,6 +317,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Strengthen Revenue Growth & Reduce Momentum Loss
 **Why:** Revenue and profit are stable but not accelerating; MoM performance is declining.
+
 **Actions:**
 
 - Launch targeted growth campaigns in months with historically low performance.
@@ -329,6 +330,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Reduce Market Concentration Risk
 **Why:** 55%+ of revenue comes from China and the USA.
+
 **Actions:**
 
 - Build localized campaigns for Japan, Brazil, and Spain.
@@ -339,6 +341,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Improve Product Strategy & SKU Efficiency
 **Why:** Profit is driven by a few premium brands; women’s apparel has high velocity but limited assortment.
+
 **Actions:**
 
 - Expand high‑performing SKUs in women’s apparel and premium outerwear.
@@ -351,6 +354,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Fix Distribution Center Imbalances
 **Why**: Centers 6 and 9 are overloaded; Center 10 is underperforming.
+
 **Actions:**
 
 - Perform a root‑cause analysis on Center 10 (staffing, routing, inventory accuracy).
@@ -363,6 +367,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Reduce Order Gaps & Reverse Logistics Issues
 **Why:** Shipped orders exceed completed orders, indicating cancellations or returns.
+
 **Actions:**
 
 - Investigate reasons for cancellations (delivery delays, product mismatch, payment issues).
@@ -373,6 +378,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Optimize Marketing Spend for Higher ROI
 **Why:** Email and AdWords generate most revenue; organic traffic is weak.
+
 **Actions:**
 
 - Increase investment in Email automation and personalized campaigns.
@@ -385,6 +391,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Improve Customer Experience Across Browsers
 **Why:** Chrome dominates usage; Safari users may face friction.
+
 **Actions:**
 
 - Prioritize Chrome optimization for speed and mobile experience.
@@ -395,6 +402,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ### Align Marketing & Operations for Better Inventory Planning
 **Why:** Gender‑based traffic patterns and SKU movement are not fully aligned.
+
 **Actions:**
 
 - Use gender‑specific traffic data to guide inventory planning.

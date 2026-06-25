@@ -43,6 +43,7 @@ This project delivers a data analytics solution through the design of three inte
 -	Operations (Performance & Efficiency)
 -	Marketing (Customer & Channel Insights)
 Using SQL (BigQuery) for data extraction and transformation, and Power BI for visualization, the project focuses on:
+
 -	Analyzing revenue, profit, and growth trends
 -	Evaluating product and distribution performance
 -	Understanding customer behavior and traffic sources

@@ -342,7 +342,7 @@ Match SKU assortment with gender‑specific demand signals.
 
 ![operation](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/operation%20dash%20board.png)
 
-![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
+![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Marketing_Dashbaord.png)
 
 
 ## [Recommendations](#recommendations)

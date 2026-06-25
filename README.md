@@ -177,6 +177,7 @@ Premium outerwear is driving most of the profit, showing strong customer willing
 Expand premium product offerings, introduce bundles, and explore cross‑selling opportunities.
 
 ### Department Performance
+
 - **Men’s:** $5.8M
 
 - **Women’s:** $5.0M

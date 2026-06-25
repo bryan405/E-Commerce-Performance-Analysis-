@@ -287,7 +287,7 @@ Chrome dominates usage. Safari users may be experiencing friction, especially on
 Conduct cross‑browser testing and improve Safari performance to capture missed conversions.
 
 ### Geographic Engagement
-- **USA leads with **52** browser interactions, followed by China and Japan.
+- **USA** leads with **52** browser interactions, followed by China and Japan.
 
 **Insight:**  
 Engagement patterns match revenue patterns — strong in USA and China.

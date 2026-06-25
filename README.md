@@ -139,152 +139,177 @@ Overall, the business is performing well, but the dashboards highlight clear opp
  
 
 #  [Key Insights & Findings](#Key-Insights-&--Findings)
- ## Strategic Sales Performance Findings
-### Revenue & Profit Trajectory  
-Revenue reached **$11M**, with profit at **$6M** and a **52%** margin. Last **12‑month** revenue stabilizes around **$4M**, while profit holds near **$2M**.
-Insight:  
-The business is in a steady but not accelerating growth phase. The **YoY** and **MoM** indicators show flat **YoY** and declining **MoM**, signaling momentum loss despite strong absolute numbers.
-Revenue & Profit Trends **(2019–2026)**  
-**Recommendation:**
-Prioritize growth‑driving initiatives (new markets, product expansion).
-### Market Contribution  
-China contributes **$3.8M, USA $2.2M, Brazil $1.4M, Spain $0.7M, South Korea $0.6M.**
-Insight:  
-The business is over‑dependent on China and the USA **(combined 55%+)**. This creates concentration risk and limits resilience.
-**Recommendation:**
-Build market diversification strategy targeting mid‑tier markets (Spain, Korea).
+ ## Revenue & Profit Trajectory
+Revenue reached **$11M**, with **$6M profit** and a **52% margin**. Over the last 12 months, revenue has held around **$4M**, while profit remains near **$2M**.
 
-### Product Profitability  
-Top profit drivers: The **North Face, Canada Goose, NIKE WOM, Nobis Men’s**.
-Insight:  
-Profit is heavily driven by premium outerwear, indicating strong brand affinity and pricing power.
- 
-**Recommendation:**
-Expand premium product lines and bundle offers.
-### Department Performance 
-**Men: $5.8M, Women: $5.0M** - nearly balanced.
-Insight:  
-Both segments are strong, but men slightly outperform.
-**Recommendation:**
-Deepen segmentation (age, region, product category).
-Identify micro‑segments with highest conversion potential.
-![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Executive_DashBoard.png)
+**Insight:**  
+The business is stable but not accelerating. Year‑over‑year growth is flat, and month‑over‑month performance is declining. This means we are maintaining strong numbers, but momentum is slowing.
 
-## Performance & Efficiency Findings
-2.1 Distribution Center Throughput
-Finding:  
-Centers 6 and 9 lead with 24 items each; Center 10 is lowest at 8 items.
-Insight:  
-There is a capacity imbalance across the network. Underperformance at Center 10 may cause delays, higher shipping costs, or stockouts.  
-Recommendation:
-Conduct root‑cause analysis on Center 10 (staffing, inventory, routing).
-Reallocate inventory and workload to balance throughput.
+**Recommendation:**  
+Focus on growth‑driving actions such as entering new markets, expanding product lines, and strengthening high-performing categories.
+
+### Market Contribution
+Top revenue contributors:
+
+- **China:** $3.8M
+
+- **USA:** $2.2M
+
+- **Brazil:** $1.4M
+
+- **Spain: $0.7M
+
+- **South Korea:** $0.6M
+
+**Insight:**  
+More than **55% of revenue comes from China and the USA**, creating dependency on two markets. This limits resilience if either market slows.
+
+**Recommendation:**  
+Develop a diversification plan targeting mid‑tier markets like Spain and South Korea to reduce concentration risk.
+
+### Product Profitability
+Top profit‑generating brands include **The North Face, Canada Goose, NIKE WOM, and Nobis Men’s**.
+
+**Insight:**  
+Premium outerwear is driving most of the profit, showing strong customer willingness to pay for high‑value brands.
+
+**Recommendation:**  
+Expand premium product offerings, introduce bundles, and explore cross‑selling opportunities.
+
+### Department Performance
+-**Men’s:** $5.8M
+
+- **Women’s:** $5.0M
+
+**Insight:**  
+Both departments perform well, with men slightly ahead. This balance shows healthy demand across segments.
+
+Recommendation:  
+Deepen segmentation (age, region, category) to identify micro‑segments with the highest conversion potential.
+
+## Operational Performance Findings
+Distribution Center Throughput
+- Centers **6** and **9** lead with **24** items each.
+
+- Center **10** is lowest at **8** items.
+
+**Insight:**  
+There is a clear imbalance in workload. Underperformance at Center 10 may be causing delays, higher shipping costs, or stockouts.
+
+**Recommendation:**  
+Investigate Center 10’s bottlenecks (staffing, routing, inventory). Rebalance inventory and workload across centers.
+
 ### Product Movement & SKU Efficiency
-Finding:  
-Women’s apparel dominates movement:
+Women’s apparel shows the highest movement:
 
-Skater Mini Skirt (2)
+- Skater Mini Skirt (2)
 
-American Eagle (1)
+- American Eagle (1)
 
-Short Satin (1)
-Insight:  
-Women’s apparel drives high SKU velocity, but SKU count is low — indicating narrow assortment.
-Dashboard Page: Operations → Items by Product  
-Recommendation:
+- Short Satin (1)
 
-Expand high‑velocity women’s SKUs.
+**Insight:**  
+Women’s apparel has strong demand but a narrow SKU range. This limits assortment and potential revenue.
 
-Introduce SKU rationalization to remove low‑movement items.
+**Recommendation:**
 
-Add return rate per SKU to detect quality issues.
+- Expand high‑velocity women’s SKUs.
+
+- Remove low‑movement SKUs to improve efficiency.
+
+- Add return‑rate tracking per SKU to detect quality or fit issues.
 
 ### Monthly Order Flow
-Finding:  
-Monthly orders:
+- **Completed orders:** 45,268
 
-Complete: 45,268
+- **Shipped orders:** 54,158
 
-Shipped: 54,158
+**Insight:**  
+The gap between shipped and completed orders suggests cancellations, returns, or pending confirmations. This affects revenue recognition and customer experience.
 
-Processing: fluctuates
-Insight:  
-There is a gap between shipped and completed orders, suggesting reverse logistics, cancellations, or pending confirmations. 
 ### Gender‑Based Revenue
-Finding:  
-Male: $4.8M, Female: $3.8M.
-Insight:  
-Men generate more revenue, but women drive higher SKU diversity.
-Dashboard Page: Operations → Revenue by Gender  
-Recommendation:
-Tailor inventory planning by gender.
-identify gender‑specific traffic sources.
-![operation](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/operations_DashBoard.png)
+- **Male:** $4.8M
 
-## Customer & Channel Insights
-### Traffic Source Revenue
-Finding:
+- **Female:** $3.8M
 
-- Email: $4.5M
+**Insight:**  
+Men generate more revenue, but women drive more SKU diversity. This should guide inventory planning.
 
-- AdWords: $4.2M
+**Recommendation:**  
+Align stock levels and assortment with gender‑specific demand patterns.
 
-- Facebook: $1.2M
+## Marketing Performance Findings
+**Traffic Source Revenue**
+**Email:** $4.5M
 
-- YouTube: $0.6M
+**AdWords** $4.2M
 
-- Organic: $0.3M  
-Insight:  
-Email and AdWords dominate revenue, showing high ROI and strong customer retention. Organic traffic is underperforming, signaling weak SEO.
-Recommendation:
-- Increase email automation and segmentation.
+**Facebook:** $1.2M
 
-- Optimize AdWords bidding for high‑value segments.
+**YouTube:** $0.6M
 
-- Invest in SEO content to reduce paid dependency.
+**Organic:** $0.3M
+
+**Insight:**  
+Email and AdWords deliver the highest revenue and strongest ROI. Organic traffic is weak, showing limited SEO impact.
+
+**Recommendation:**
+
+- Strengthen email automation and segmentation.
+
+- Optimize AdWords bidding for high‑value audiences.
+
+- Invest in SEO to reduce reliance on paid channels.
 
 ### Engagement & Events
-Finding:  
-All top metrics show 222 (events, traffic, browser count).
+All major engagement metrics show 222 interactions.
+
 Insight:  
-This indicates stable but flat engagement - no growth signals.
-Marketing - Engagement Metrics  
+Engagement is stable but not growing. This indicates a plateau in customer activity.
+
 Recommendation:
-- Introduce A/B testing for landing pages.
 
-- Add conversion funnel visualization to identify drop‑off points.
+Run A/B tests on landing pages.
 
-### Browser Behavior
-Finding:  
-Chrome dominates with 2.2M users, followed by Firefox and Safari.
+Add a conversion‑funnel view to identify where users drop off.
+
+Browser Behavior
+Chrome: 2.2M users
+
+Firefox: 1.0M
+
+Safari: 0.8M
+
 Insight:  
-Chrome optimization should be prioritized; Safari users may face UX issues.
- Marketing - User by Browser  
-Recommendation:
-Conduct cross‑browser performance testing.
-Improve Safari mobile experience to capture lost conversions.
+Chrome dominates usage. Safari users may be experiencing friction, especially on mobile.
 
-### Geographic Engagement
-Finding:  
+Recommendation:  
+Conduct cross‑browser testing and improve Safari performance to capture missed conversions.
+
+Geographic Engagement
 USA leads with 52 browser interactions, followed by China and Japan.
+
 Insight:  
-Marketing engagement aligns with Executive revenue patterns — strong in USA and China.  
-Recommendation:
-Localize campaigns for Japan and Brazil to unlock growth.
+Engagement patterns match revenue patterns — strong in USA and China.
 
-### Cross‑Dashboard Insights (Where the Story Connects)
-Marketing - Executive
-Traffic sources with highest revenue (Email, AdWords) align with stable revenue trends.
 Recommendation:  
-Scale campaigns for top‑performing products identified in Executive dashboard.
+Localize campaigns for Japan and Brazil to unlock additional growth.
 
-### Operations - Executive
-Distribution center inefficiencies may be contributing to MoM revenue decline.
+4. Cross‑Dashboard Insights (Connecting the Story)
+Marketing ↔ Executive
+High‑revenue traffic sources (Email, AdWords) align with stable revenue trends.
 
-### Marketing - Operations
-Gender traffic patterns should inform inventory planning.
 Recommendation:  
-Align SKU assortment with gender‑specific demand signals.
+Scale campaigns for top‑performing products identified in the Executive dashboard.
+
+Operations ↔ Executive
+Distribution center inefficiencies may be contributing to the month‑over‑month revenue decline.
+
+Marketing ↔ Operations
+Gender‑based traffic patterns should guide inventory planning.
+
+Recommendation:  
+Match SKU assortment with gender‑specific demand signals.
 ![marketing dashboard](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Marketing_Dashbaord.png)
 
 

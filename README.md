@@ -129,15 +129,15 @@ By implementing these dashboards, the business will be able to:
 ![image alt](preview_bigquery_raw_data.png)
 ### Dataset Structure
 
-#### ![Preview of Columns Structure click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Table%20Structures%20and%20Relationship%20in%20Model.pdf)
+#### ![Preview of Columns Structure Click Here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Table%20Structures%20and%20Relationship%20in%20Model.pdf)
 
 **ERD Diagram**
 
 ![ERD](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/ERD%20Diagram.png)
 
 ## [Data Cleaning & Transformation](#data-cleaning--transformation)
-#### ![Biguery Data Cleaning Documentation Click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Biguery%20data%20cleaning%20documentation..pdf)
-#### ![Power Bi Transformation Click here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/DATA%20TRANSFORMATION%20IN%20POWER%20BI.pdf)
+#### ![Biguery Data Cleaning Documentation Click Here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Biguery%20data%20cleaning%20documentation..pdf)
+#### ![Power Bi Transformation Click Here](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/DATA%20TRANSFORMATION%20IN%20POWER%20BI.pdf)
 
 # [Executive Summary](#Executive-Summary)
 

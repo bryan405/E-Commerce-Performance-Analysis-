@@ -174,6 +174,7 @@ More than **55% of revenue comes from China and the USA**, creating dependency o
 
 **Recommendation:**  
 Develop a diversification plan targeting mid‑tier markets like Spain and South Korea to reduce concentration risk.
+
 ![MARKET](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Revenue%20by%20country.png)
 
 ### Product Profitability
@@ -196,6 +197,8 @@ Both departments perform well, with men slightly ahead. This balance shows healt
 
 Recommendation:  
 Deepen segmentation (age, region, category) to identify micro‑segments with the highest conversion potential.
+
+![DEPARTMENT](https://github.com/bryan405/E-Commerce-Performance-Analysis-/blob/main/Folder/Revenue%20by%20department.png)
 
 ## Operational Performance Findings
 Distribution Center Throughput

@@ -157,7 +157,7 @@ Top revenue contributors:
 
 - **Brazil:** $1.4M
 
-- **Spain: $0.7M
+- **Spain:** $0.7M
 
 - **South Korea:** $0.6M
 

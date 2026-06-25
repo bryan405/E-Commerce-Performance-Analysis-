@@ -141,7 +141,7 @@ By implementing these dashboards, the business will be able to:
 
 # [Executive Summary](#Executive-Summary)
 
-Our business continues to show **solid revenue growth**, stable **profitability**, and strong **operational throughput** across regions and channels. Revenue reached **$11M**, supported by **$6M profit** and a **52% margin**, showing that our core markets and product lines remain healthy. Operational activity is strong with **125K orders, 221 active products**, and **9 distribution centers**, although performance varies by center. On the marketing side, **Email and AdWords** remain our highest‑value traffic sources, driving most of the **$4.5M–$4.2M** revenue contribution. Customer engagement is balanced across gender and browsers, with **Chrome** dominating usage.
+Our business continues to show **solid revenue growth**, stable **profitability**, and strong **operational throughput** across regions and channels. Revenue reached **$11M**, supported by **$6M profit** and a **52% margin**, showing that our core markets and product lines remain healthy. Operational activity is strong with **125K orders, 221 active products**, and **9 distribution centers**, although performance varies by center. On the marketing side, **Email and AdWords** remain our highest‑value traffic sources, driving most of the **$4.2M-$4.5M** revenue contribution. Customer engagement is balanced across gender and browsers, with **Chrome** dominating usage.
 
 Overall, the business is performing well, but the dashboards highlight clear opportunities to improve distribution efficiency, reduce cancellations, and optimize marketing spend toward the highest‑return channels.
 
